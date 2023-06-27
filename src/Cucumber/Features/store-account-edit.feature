@@ -5,7 +5,7 @@ Feature: User account edit
 #  Scenario: User adds first address to account
 #
 #    Given I'm on the store authentication page
-#    When I login using "bob10@bobo.com" and "mypass"
+#    When I login using "boblop@bobo.com" and "mypass"
 #    Then I go to my addresses page
 ##   Then I can see there is no addresses
 #    When I add new address
@@ -20,7 +20,7 @@ Feature: User account edit
   Scenario Outline: User adds first address to account
 
     Given I'm on the store authentication page
-    When I login using "bob10@bobo.com" and "mypass"
+    When I login using "boblop@bobo.com" and "mypass"
     Then I go to my addresses page
     When I add new address
     And I enter new address <alias>, <address>, <city>, <zipcode>, <phone>
