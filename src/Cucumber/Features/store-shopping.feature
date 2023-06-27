@@ -5,7 +5,7 @@ Feature: Shopping online
 Scenario: Proceed shopping for a signed customer
 
 Given I am on the store authentication page
-When I am login using "bob10@bobo.com" and "mypass"
+When I am login using "boblop@bobo.com" and "mypass"
 Then I go to main store page
 When I choose product "Hummingbird Printed Sweater"
 Then I see 20 % discount
