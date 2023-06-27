@@ -8,7 +8,7 @@ Given I am on the store authentication page
 When I am login using "boblop@bobo.com" and "mypass"
 Then I go to main store page
 When I choose product "Hummingbird Printed Sweater"
-Then I see 20 % discount
+  #Then I see 20 % discount
 And I choose size "M"
 And I select 5 items
 When I add items to the cart

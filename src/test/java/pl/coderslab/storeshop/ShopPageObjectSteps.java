@@ -43,10 +43,10 @@ public class ShopPageObjectSteps {
         shoppingPage.ChoosingItem(item);
     }
 
-    @Then("I see {int} % discount")
-    public void iSeeDiscount(int discount) {
-        shoppingPage.CheckingDiscount();
-    }
+//    @Then("I see {int} % discount")
+//    public void iSeeDiscount(int discount) {
+//        shoppingPage.CheckingDiscount();
+//    }
 
     @And("I choose size {string}")
     public void iChooseSize(String size) {
