@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.apache.commons.io.FileUtils;
 
 import java.io.IOException;
 import java.time.Duration;
