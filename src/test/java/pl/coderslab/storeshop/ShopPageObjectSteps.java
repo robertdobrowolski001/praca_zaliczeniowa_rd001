@@ -30,8 +30,7 @@ public class ShopPageObjectSteps {
 
     @When("I am login using {string} and {string}")
     public void iLoginUsingAnd(String login, String passwd) {
-        myAccountPage = authPage.loginAs(login, passwd);
-    }
+        myAccountPage = authPage.loginAs(login, passwd); }
 
     @Then("I go to main store page")
     public void iGoToMainStorePage() {
